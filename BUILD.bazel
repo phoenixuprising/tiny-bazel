@@ -1,0 +1,5 @@
+java_binary(
+    name="repro",
+    runtime_deps=["//src/main/java:repro_lib"],
+    main_class = "ReproKt",
+)
