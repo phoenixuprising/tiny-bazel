@@ -1,4 +1,4 @@
-test_command: "bazel build //..."
+test_command: ci.sh
 ruby:
 - 2.4.4
 targets:
